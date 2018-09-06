@@ -5,16 +5,44 @@
     <title>Word Guess Game</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Press any key to get started!</h1>
+    <!-- <h1>Press any key to get started!</h1>
     <p id="wins">Wins:</p>
     <p id="loses">Loses:</p>
     <p>Current Word</p>
     <h2 id="word"></h2>
     <p id="remaining-guesses">Number of Guesses Remaining: 10</p>
-    <p id="letters-guessed">Letters Guessed:</p>
+    <p id="letters-guessed">Letters Guessed:</p> -->
+
+    <div class="row">
+        <div class="col-10 justify-content-center mx-auto">
+            <div class="col-sm-6 justify-content-center float-left">
+              <div class="card bg-secondary">
+                <div class="card-body text-light">
+                  <h5 class="card-title">Press any key to get started!</h5>
+                  <p class="card-text" id="wins">Wins:</p>
+                  <p class="card-text" id="loses">Loses:</p>
+                  <p class="card-text" id="remaining-guesses">Number of Guesses Remaining: 10</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6  justify-content-center float-left">
+              <div class="card bg-secondary">
+                <div class="card-body text-light">
+                  <h5 class="card-title">Current Word:</h5>
+                  <p class="card-text" id="word"></p>
+                  <p class="card-text" id="letters-guessed">Letters Guessed:</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+
+
+
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 

@@ -34,6 +34,7 @@ function game() {
                         wins++;
                         document.getElementById("wins").innerHTML = "Wins: " + wins;
                         document.getElementById("remaining-guesses").innerHTML = "Number of Guesses Remaining: 10"
+                        document.getElementById("letters-guessed").innerHTML = "Letters Guessed: "
                         game();
                     }
 
